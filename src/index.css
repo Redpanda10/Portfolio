@@ -1,0 +1,92 @@
+/* Set Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #121212; /* Dark background */
+  color: #f1f1f1; /* Light font color */
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+section {
+  padding: 60px 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Create subtle gradient background for sections */
+section:nth-child(even) {
+  background: linear-gradient(135deg, #333, #444);
+}
+
+section:nth-child(odd) {
+  background: linear-gradient(135deg, #222, #333);
+}
+
+/* Smooth hover effect for links */
+a:hover {
+  color: #e63946;
+  transition: color 0.3s ease;
+}
+
+/* Contact Button */
+button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d62828;
+}
+
+/* Social Media Icons */
+.social-icons li a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+  color: #e63946;
+}
+
+/* Add Font Awesome icons styles */
+svg {
+  transition: transform 0.3s ease;
+}
+
+svg:hover {
+  transform: scale(1.1);
+}
+.about-me-header {
+  color: #e63946;
+}
+.change
+{
+  color:#f1f1f1;
+}
